@@ -1,88 +1,105 @@
 # Bank Marketing Analysis & Customer Behavior Dashboard
 
-A Data Analysis project focused on exploring bank marketing campaign data and understanding customer behavior using **Power BI**.
+An end-to-end Data Analytics and Machine Learning project focused on analyzing bank marketing campaigns, understanding customer behavior, and predicting term deposit subscriptions.
+
+The project combines Python-based data analysis, machine learning classification models, and an interactive Power BI dashboard.
 
 ## Project Overview
 
-This project analyzes bank marketing campaign data to explore customer characteristics, campaign performance, and marketing effectiveness.
+The goal of this project is to explore customer characteristics, identify patterns in marketing campaign performance, and understand the factors associated with term deposit subscriptions.
 
-The goal is to transform raw data into meaningful insights through data preparation, exploratory analysis, and interactive dashboard visualizations.
+The project workflow includes data exploration, preprocessing, machine learning, and interactive data visualization.
 
 ## Project Objectives
 
-- Analyze customer characteristics and behavior.
-- Explore bank marketing campaign performance.
-- Identify patterns across different customer segments.
-- Evaluate campaign effectiveness using visual analytics.
-- Present findings through an interactive Power BI dashboard.
+- Explore customer demographics and financial characteristics.
+- Analyze bank marketing campaign performance.
+- Identify customer segments and behavioral patterns.
+- Apply machine learning classification models.
+- Evaluate model performance and compare results.
+- Build an interactive Power BI dashboard.
 
 ## Dataset
 
-The project uses a cleaned bank marketing dataset containing:
+The dataset contains bank customer and telemarketing campaign information.
 
-- **45,211 records**
-- **18 columns**
+It includes features related to:
 
-The dataset includes customer-related information and marketing campaign attributes.
-
-**Dataset file:** `bank_marketing_cleaned (1).csv`
-
-## Data Preparation
-
-The data preparation process included:
-
-- Data inspection and understanding.
-- Data cleaning and preprocessing.
-- Handling missing values.
-- Reviewing data consistency.
-- Preparing the dataset for analysis and visualization.
-
-## Power BI Dashboard
-
-The interactive dashboard is organized into three main pages:
-
-### 1. Campaign Overview
-Provides an overall view of the marketing campaign data and its key metrics.
-
-### 2. Customer Segments
-Explores customer characteristics and compares different customer segments.
-
-### 3. Campaign Effectiveness
-Focuses on campaign performance and helps evaluate marketing outcomes.
+- Customer demographics: age, job, marital status, and education.
+- Financial information: balance, housing loan, and personal loan.
+- Campaign details: contact type, month, call duration, and number of contacts.
+- Target variable: term deposit subscription.
 
 ## Tools & Technologies
 
-- **Power BI** – Data visualization and interactive dashboard development.
-- **Microsoft Excel** – Data handling and preparation.
-- **CSV** – Dataset storage and exchange.
+- **Python:** Data analysis and preprocessing.
+- **Pandas & NumPy:** Data manipulation.
+- **Matplotlib & Seaborn:** Data visualization.
+- **Scikit-learn:** Machine learning.
+- **Power BI:** Interactive dashboards and reporting.
+- **Microsoft Excel:** Data handling.
 
-## Repository Structure
+## Project Workflow
 
-```text
-bank-marketing-analysis/
-│
-├── README.md
-├── bank-marketing-dashboard.pbix
-└── bank_marketing_cleaned (1).csv
-```
+### 1. Data Cleaning & Preprocessing
+- Dataset inspection and understanding.
+- Handling categorical unknown values.
+- Duplicate and outlier checks.
+- Feature engineering and encoding.
+
+### 2. Exploratory Data Analysis (EDA)
+- Customer demographic analysis.
+- Subscription behavior analysis.
+- Campaign performance exploration.
+- Correlation and visualization analysis.
+
+### 3. Machine Learning
+Two classification models were developed and evaluated:
+
+- Logistic Regression
+- Random Forest Classifier
+
+The models were compared using classification evaluation metrics.
+
+### 4. Power BI Dashboard
+The interactive dashboard contains three pages:
+
+- Campaign Overview
+- Customer Segments
+- Campaign Effectiveness
+
+## Dashboard Preview
+
+### Campaign Overview
+
+![Campaign Overview](bank-marketing-overview.jpg)
+
+### Customer Segments
+
+![Customer Segments](bank-marketing-custmer-segment.jpg)
+
+### Campaign Effectiveness
+
+![Campaign Effectiveness](bank-marketing-effectiveness.jpg)
 
 ## Project Files
 
 | File | Description |
 |---|---|
-| `bank-marketing-dashboard.pbix` | Power BI dashboard |
-| `bank_marketing_cleaned (1).csv` | Cleaned dataset |
+| [Power BI Dashboard](bank-marketing-dashboard.pbix) | Interactive Power BI dashboard |
+| [Python Notebook](bank-marketing-analysis.ipynb) | Data analysis, preprocessing, and machine learning |
+| [Cleaned Dataset](<bank_marketing_cleaned (1).csv>) | Dataset used in the project |
 
 ## Key Learning Outcomes
 
-- Practiced data cleaning and preprocessing.
-- Improved data analysis and visualization skills.
-- Worked with customer behavior and marketing campaign data.
-- Built an interactive dashboard using Power BI.
-- Developed skills in presenting analytical information visually.
+- Practical experience in data cleaning and preprocessing.
+- Exploratory data analysis and data visualization.
+- Building and evaluating classification models.
+- Developing interactive dashboards using Power BI.
+- Translating data analysis into meaningful business insights.
 
 ---
 
-**Project Category:** Data Analytics | Business Intelligence | Data Visualization
+**Project Category:** Data Analytics | Machine Learning | Business Intelligence
 
-**Tools:** Power BI, Excel, CSV
+**Tools:** Python | Pandas | Scikit-learn | Power BI | Excel
