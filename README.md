@@ -87,7 +87,7 @@ The interactive dashboard contains three pages:
 | File | Description |
 |---|---|
 | [Power BI Dashboard](bank-marketing-dashboard.pbix) | Interactive Power BI dashboard |
-| [Python Notebook](bank-marketing-analysis.ipynb) | Data analysis, preprocessing, and machine learning |
+| [Python Notebook](notebooks/bank-marketing-analysis.ipynb) | Data analysis, preprocessing, and machine learning |
 | [Cleaned Dataset](<bank_marketing_cleaned (1).csv>) | Dataset used in the project |
 
 ## Key Learning Outcomes
