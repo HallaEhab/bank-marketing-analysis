@@ -72,15 +72,15 @@ The interactive dashboard contains three pages:
 
 ### Campaign Overview
 
-![Campaign Overview](bank-marketing-overview.jpg)
+![Campaign Overview](images/bank-marketing-overview.jpg)
 
 ### Customer Segments
 
-![Customer Segments](bank-marketing-custmer-segment.jpg)
+![Customer Segments](images/bank-marketing-custmer-segment.jpg)
 
 ### Campaign Effectiveness
 
-![Campaign Effectiveness](bank-marketing-effectiveness.jpg)
+![Campaign Effectiveness](images/bank-marketing-effectiveness.jpg)
 
 ## Project Files
 
